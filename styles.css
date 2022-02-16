@@ -1,0 +1,354 @@
+body {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+h1,h2,h3{
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+}
+h1 {
+  font-size: 3.7rem;
+  padding-top: 5%;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: hsl(208, 49%, 24%);
+  margin: 2% 0 4%;
+}
+
+h3 {
+  font-size: 1.7rem;
+  color: hsl(208, 49%, 24%);
+  margin: 2% 0 4%;
+}
+p{
+  opacity:0.7;
+}
+
+/* Navbar and Intro Section */
+
+#title {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url("images/bg-pattern-intro-desktop.svg"),
+    linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  height: 100%;
+  border-bottom-left-radius: 85px;
+  background-position: 34% 53%;
+  background-repeat: no-repeat;
+  color: hsl(0, 0%, 100%);
+  line-height: 3;
+  padding: 4% 10%;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-left: 5%;
+}
+
+.navbar-nav {
+  color: hsl(0, 0%, 100%);
+  padding-left: 3%;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.close-icon {
+  display: none;
+}
+
+.dropdown-item:hover {
+  font-weight: bold;
+}
+
+.dropdown-toggle::after {
+ display: none !important;
+}
+
+.arrow-transform{
+  transform:rotate(180deg);
+}
+
+#title .navbarlink , .tagline{
+  color: hsl(0, 0%, 100%);
+  opacity:0.7;
+}
+
+#title .navbarlink:hover {
+  opacity:1;
+  text-decoration:underline;
+}
+
+.btn {
+  border-radius: 30px;
+  padding:10px 25px;
+  font-weight: bold;
+}
+
+.tagline {
+  font-size: 1.3rem;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+}
+
+.CTA {
+  color: hsl(356, 100%, 66%);
+}
+
+.CTA:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(355, 100%, 74%);
+  border: none;
+}
+
+.login{
+  text-decoration:none;
+}
+.learn{
+  border-color: hsl(0, 0%, 100%,0.7);
+}
+.learn:hover {
+  color: hsl(355, 100%, 74%);
+}
+
+.register-mobile {
+  display: none;
+}
+
+.Intro {
+  padding: 5% 0;
+}
+
+
+/* Feature Section */
+
+#future-design {
+  color: hsl(207, 13%, 34%);
+  overflow: hidden;
+  margin-top: 8%;
+  position: relative;
+  height: 950px;
+}
+
+#future-design p {
+  margin: 6% 0 15%;
+}
+
+.row {
+  padding: 7% 10%;
+}
+
+.editor-desktop {
+  padding-left: 30px;
+  position: absolute;
+  top: 0%;
+}
+
+.editor-mobile {
+  display: none;
+}
+
+/* State of Art Section */
+
+#Infra {
+  background-image: url("images/bg-pattern-circles.svg"),
+    linear-gradient(to right, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
+  background-position: -50% 85%;
+  background-repeat: no-repeat;
+  height: 50vh;
+  border-bottom-left-radius: 85px;
+  border-top-right-radius: 85px;
+  color: hsl(0, 0%, 100%);
+  position: relative;
+}
+
+#Infra h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+.phone {
+  position: absolute;
+  top: -17%;
+  left: 8%;
+  max-width:100%;
+  height:auto;
+}
+
+/* App section */
+
+#App {
+  color: hsl(207, 13%, 34%);
+  position: relative;
+  overflow: hidden;
+  height: 1000px;
+}
+
+#App p {
+  margin-bottom: 15%;
+}
+
+.content {
+  padding-top: 15%;
+}
+
+.laptop-desktop {
+  position: absolute;
+  left: -19%;
+  bottom: 12%;
+}
+
+.laptop-mobile {
+  display: none;
+}
+
+/* Footer Section */
+footer {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  background-color: hsl(240, 10%, 16%);
+  border-top-right-radius: 85px;
+  color: white;
+  height: 100%;
+  font-size: 0.95rem;
+}
+
+footer h3 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 1rem;
+}
+
+.logo {
+  margin: 5% 0;
+}
+
+footer a {
+  color: hsl(240, 2%, 79%);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: hsl(240, 2%, 79%);
+  text-decoration: underline;
+}
+
+.column {
+  padding: 7% 0;
+  line-height: 1.1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+
+/* Media Query section */
+@media only screen and (max-width:768px) {
+  body {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2.1rem;
+  }
+
+  #title {
+    background-image: url("images/bg-pattern-intro-mobile.svg"),
+      linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    padding: 10% 8%;
+  }
+
+  #title .navbarlink{
+    text-decoration:none;
+  }
+  .navbar-collapse {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+  }
+
+  .dropdown-menu {
+    background-color: hsl(240, 2%, 79%);
+    text-align: center;
+    margin: 0 20px 0 8px;
+  }
+
+  .dropdown-item {
+    color: hsl(207, 13%, 34%);
+  }
+
+
+  #title .navbarlink {
+    color: hsl(237, 17%, 21%);
+    font-weight: normal;
+  }
+
+  .signup {
+    background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    color: hsl(0, 0%, 100%);
+    padding: 2% 10%;
+    font-weight: normal;
+  }
+
+  .Intro {
+    margin: 14% 0;
+  }
+
+  .tagline{
+    font-size:1.18rem;
+  }
+
+  #future-design {
+    padding: 15% 0;
+    height: 1300px;
+  }
+
+  #future-design h2 {
+    font-size: 1.7rem;
+  }
+
+  .phone {
+    top: -32%;
+    left: 1%;
+  }
+
+  #Infra {
+    padding-top: 50%;
+    height: 80vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #App {
+    height: 1000px;
+  }
+
+  footer h3 {
+    font-size: 1.1rem;
+  }
+
+  footer p{
+    font-size:1rem;
+  }
+  .logo {
+    padding-bottom: 20%;
+  }
+
+  .column {
+    padding: 5% 0;
+    line-height: 1.2rem;
+  }
+}
