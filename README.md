@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [@nees101/FrontendMentor](https://your-solution-url.com)
-- Live Site URL: [@nees101/github](https://your-live-site-url.com)
+- Solution URL: [@nees101/FrontendMentor](https://www.frontendmentor.io/solutions/blogr-landing-page-using-custom-css-properties-bootstrap-and-jquery-dtOZ0VLxJ)
+- Live Site URL: [@nees101/github](https://nees101.github.io/blogr-landing-page-main/)
 
 ## My process
 
